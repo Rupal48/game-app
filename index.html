@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <!-- Hmesha pehele css lagani h baadme script -->
+    <link rel="stylesheet" href="css/design.css">
+    <!-- Agr hm yha js lagte to buttons 0 rehte js kyoki buttons to line 16 se declare/define hone shuru huye h -->
+    <!-- Now body ke last me rkhne se avoid krne ke liye hm DEFER(defer) use kr lenge jisse js lazy chalega aur baadme chalega-->
+    <!-- Agr defer nhi use krenge t script eagerly chalega mtlb iss line pe aate hi instanly execute hoga-->
+    <!-- Isliye hm whi script bina defer ke chalayenge  -->
+    <script src = "scripts/game.js" defer></script>
+</head>
+<body>
+    <div>
+    <h1>Tic Tac Toe - Game</h1>
+    <table>
+        <tr>
+            <td><button></button></td>
+            <td><button></button></td>
+            <td><button></button></td>
+        </tr>
+        <tr>
+            <td><button></button></td>
+            <td><button></button></td>
+            <td><button></button></td>
+        </tr>
+        <tr>
+            <td><button></button></td>
+            <td><button></button></td>
+            <td><button></button></td>
+        </tr>
+    </table>
+    <h2 id="result"></h2>
+    <h2 id="resetCountdown"></h2>
+    </div>
+</body>
+</html>
